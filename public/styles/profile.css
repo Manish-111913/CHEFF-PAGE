@@ -1,0 +1,232 @@
+.profile-screen {
+  height: 100%;
+  background-color: #111;
+}
+
+.edit-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-card {
+  background-color: #222;
+  margin: 0 16px;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin-right: 16px;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.member-since {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.profile-details {
+  border-top: 1px solid #333;
+  padding-top: 16px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.detail-text {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 12px;
+  flex: 1;
+}
+
+.stats-container {
+  display: flex;
+  margin: 0 16px 24px;
+}
+
+.stat-card {
+  flex: 1;
+  background-color: #222;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  margin: 0 4px;
+}
+
+.stat-number {
+  color: #fbbf24;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+}
+
+.section {
+  margin: 0 16px 24px;
+}
+
+.section-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.setting-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.setting-label {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.switch {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  background-color: #333;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.switch.active {
+  background-color: #fbbf24;
+}
+
+.switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.switch.active .switch-thumb {
+  transform: translateX(26px);
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #333;
+}
+
+.menu-item-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.menu-item-text {
+  margin-left: 12px;
+  flex: 1;
+}
+
+.menu-item-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.menu-item-subtitle {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  margin: 0 16px;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ff4444;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #333;
+}
+
+.logout-text {
+  color: #ff4444;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.app-version {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 32px;
+}

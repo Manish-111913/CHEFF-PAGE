@@ -1,0 +1,229 @@
+.orders-screen {
+  height: 100%;
+  background-color: #111;
+}
+
+.order-id {
+  font-size: 16px;
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+.status-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.status-header {
+  display: flex;
+  align-items: center;
+}
+
+.status-icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.status-text-container {
+  flex: 1;
+}
+
+.status-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.status-subtitle {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+.progress-track {
+  height: 6px;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #fbbf24;
+  border-radius: 3px;
+  transition: width 1s ease;
+}
+
+.timeline-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.timeline-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+}
+
+.timeline-icon.completed {
+  background-color: #fbbf24;
+  border-color: #fbbf24;
+}
+
+.timeline-icon.current {
+  background-color: #fbbf24;
+  border-color: #fbbf24;
+}
+
+.timeline-connector {
+  width: 2px;
+  height: 24px;
+  background-color: #333;
+  margin-top: 4px;
+}
+
+.timeline-connector.completed {
+  background-color: #fbbf24;
+}
+
+.timeline-content {
+  flex: 1;
+  padding-bottom: 16px;
+}
+
+.timeline-label {
+  color: #666;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.timeline-label.completed {
+  color: #fff;
+}
+
+.timeline-time {
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.order-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.order-label {
+  color: #ccc;
+  font-size: 14px;
+  flex: 1;
+}
+
+.order-value {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  flex: 1;
+  text-align: right;
+}
+
+.total-value {
+  color: #fbbf24;
+  font-size: 16px;
+}
+
+.delivery-card {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.delivery-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.delivery-text {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 12px;
+  flex: 1;
+}
+
+.action-buttons {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.action-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  padding: 16px 0;
+  border-radius: 12px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.action-button:hover {
+  background-color: #333;
+}
+
+.action-button-text {
+  color: #fbbf24;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 8px;
+}

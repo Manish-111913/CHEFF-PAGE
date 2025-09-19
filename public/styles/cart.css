@@ -1,0 +1,232 @@
+.cart-screen {
+  height: 100%;
+  background-color: #111;
+}
+
+.item-count {
+  font-size: 16px;
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+.cart-container {
+  flex: 1;
+  padding: 0 16px;
+  overflow-y: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 8px 0;
+}
+
+.cart-item-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.customizations {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.cart-item-price {
+  color: #fbbf24;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.quantity-controls .quantity-button {
+  background-color: #fbbf24;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-controls .quantity {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 16px;
+}
+
+.remove-button {
+  padding: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.empty-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.empty-icon {
+  width: 80px;
+  height: 80px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.empty-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.empty-subtitle {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+
+.summary-container {
+  background-color: #222;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.summary-label {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.summary-value {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.total-row {
+  border-top: 1px solid #333;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+
+.total-label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.total-value {
+  color: #fbbf24;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  background-color: #fbbf24;
+  margin: 16px;
+  padding: 16px 0;
+  border-radius: 12px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.checkout-button:hover {
+  background-color: #f59e0b;
+}
+
+.checkout-text {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.confirmation-modal {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.confirmation-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.confirmation-text {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.confirmation-buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.confirm-button {
+  background-color: #fbbf24;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin: 0 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cancel-button {
+  background-color: #666;
+}
+
+.confirm-button-text {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cancel-button-text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
